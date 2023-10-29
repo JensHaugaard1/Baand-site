@@ -80,7 +80,7 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vh;
+    margin-top: 3.5vw;
     width: 80vw;
     max-width: 40vh;
     
@@ -99,9 +99,7 @@ body, html {
   z-index: -1;
 }
 
-.TextBox{
-mar: 30px;
-}
+
 
 p {
   position: absolute; 
@@ -110,7 +108,7 @@ p {
   width: 50%; 
   height: -100%; 
   font-family: Helvetica, Sans-Serif;
-    color: rgb(66, 66, 66);
+    color: rgb(144, 144, 144);
     font-size: 1vh ;
  
 }
