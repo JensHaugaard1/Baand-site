@@ -21,7 +21,7 @@ body, html {
   width: 100vw;
   height: 100vh;
   content: "";
-  opacity: .015;  
+  opacity: .02;  
   z-index: 1000;
   pointer-events: none;
   background: url(Overlay.png) ;
@@ -100,17 +100,54 @@ body, html {
 }
 
 
+ 
 
-p {
+.left { 
+    
   position: absolute; 
-  bottom: 0.5vh; 
-  left: 1.5vh;
+  bottom: 1vh; 
+  left: 5vh;
   width: 50%; 
   height: -100%; 
+  color: rgb(100, 100, 100);
+  font-size: 1.2vh;
   font-family: Helvetica, Sans-Serif;
-    color: rgb(144, 144, 144);
-    font-size: 1vh ;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  cursor: none;
+}
  
+
+.right { 
+   text-align: right;
+  position: absolute; 
+  bottom: 1vh; 
+  right: 5vh;
+  width: 50%; 
+  height: -100%; 
+  color: rgb(100, 100, 100);
+  font-size: 1.2vh;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: underline;
+   cursor: none;
+}
+.copyright {
+  text-align: right;
+  position: absolute; 
+  bottom: 1vh; 
+  right: 0h;
+  width: 50%; 
+  height: -100%; 
+  color: rgb(150, 150, 150);
+  font-size: 1.5vh;
+  font-family: Helvetica, Sans-Serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: underline;
+   cursor: none;
 }
 
 .Links:hover {
@@ -118,10 +155,32 @@ p {
   z-index: -1; 
 }
 
+
+
+
 a:link {
   cursor: none;
   }
 
+  a {
+    color: rgb(100, 100, 100);
+    
+  }
+
+  a:visited {
+    color:  rgb(100, 100, 100);
+  }
+
+
+  a:hover {
+  color: rgb(255, 255, 255);
+ 
+  
+  }
+
+  a:link {
+  cursor: none;
+  }
 
 
 
